@@ -1,0 +1,100 @@
+.container-email {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #000 !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8%;
+    margin-bottom: 24px;
+}
+
+.email-content {
+    color: #000;
+    overflow-wrap: break-word;
+    width: 50%;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.module {
+    padding: 1px;
+
+    width: 50%;
+    background: linear-gradient(90deg, rgba(81, 57, 224, 1) 0%, rgba(141, 80, 212, 1) 48%, rgba(227, 119, 232, 1) 100%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.email-action {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 16PX;
+    font-weight: 600;
+}
+
+.email-action input {
+    border: none;
+    outline: none;
+
+    padding: 20px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    height: 60px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
+    -ms-border-radius: 20px 0px 0px 20px;
+    -o-border-radius: 20px 0px 0px 20px;
+
+
+}
+
+.email-action button {
+    height: 60px;
+    border: none;
+    background: rgb(81,57,224);
+    background: linear-gradient(90deg, rgba(81,57,224,1) 0%, rgba(139,79,212,1) 51%, rgba(209,116,214,1) 100%);
+     padding: 0px 40px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+    font-size: 16PX;
+    font-weight: 600;
+}
+
+.email-action input:focus {
+    background-color: #c1c0c040;
+    box-shadow: none;
+}
+
+.email-action input::placeholder {
+    color: rgb(155, 155, 155);
+    font-size: 16PX;
+    font-weight: 600;
+
+}

@@ -1,0 +1,76 @@
+.container-contact {
+    background: linear-gradient(rgba(78, 114, 115, 0.715), rgba(76, 112, 113, 0.71)), url("./contact3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 24px;
+
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 60PX;
+}
+
+.contact-content {
+    width: 80%;
+
+    margin: auto;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-first-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #212121;
+
+}
+
+.form-control {
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+    margin: 10px;
+}
+
+.contact-first-form input:focus,
+.contact textarea:focus {
+    background-color: #c1c0c024;
+    box-shadow: none;
+}
+
+.container-contact input::placeholder,
+.contact textarea::placeholder {
+    color: white;
+}
+
+.contact-button {
+    padding: 16px 32px;
+    border-radius: 25px;
+    color: #83C0C1;
+    display: inline-block;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #000000;
+}
