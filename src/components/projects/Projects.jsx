@@ -12,6 +12,15 @@ function Projects() {
   <div className="works-content">
 
       <div className="work-item">
+        <img src="geminiClone.png" alt />
+        <div className="work-overley">
+          <small>Website Development-ReactJs        </small>
+          <p>gemini Clone</p>
+          <a href="https://my-gemini-react.onrender.com/" target='_blank'><FontAwesomeIcon icon={faMagnifyingGlassPlus} /></a>
+        </div> {/* /team-overley */}
+      </div>
+
+      <div className="work-item">
         <img src="Wstore.png" alt />
         <div className="work-overley">
           <small>Website Development-ReactJs        </small>
