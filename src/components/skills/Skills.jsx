@@ -58,7 +58,7 @@ function Skills() {
             </div>
              
         </ProgressBar>
-    <h3>.NET Developer</h3>
+    <h3>ReactJS Developer</h3>
     </div>
     <div className='skills-item' >
     <ProgressBar
