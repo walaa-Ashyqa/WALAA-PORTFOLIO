@@ -31,14 +31,14 @@ function Projects() {
 
      
 
-      <div className="work-item">
+{/*       <div className="work-item">
         <img src="restaurant2.png" alt />
         <div className="work-overley">
           <small>Website Development-ReactJs</small>
           <p>Restaurant Website</p>
           <a href="https://react-restaurant-api-project.onrender.com/" target='_blank' ><FontAwesomeIcon icon={faMagnifyingGlassPlus} /></a>
         </div> {/* /team-overley */}
-      </div>
+      </div> */}
 
       <div className="work-item">
         <img src="wstore-js.png" alt />
